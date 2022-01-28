@@ -7,13 +7,15 @@ import PersonPinIcon from "@mui/icons-material/PersonPin";
 import LinkedCameraIcon from "@mui/icons-material/LinkedCamera";
 import EmailIcon from "@mui/icons-material/Email";
 import Brightness6Icon from "@mui/icons-material/Brightness6";
-import AppShortcutIcon from '@mui/icons-material/AppShortcut';
+import AppShortcutIcon from "@mui/icons-material/AppShortcut";
 
 const useStyles = makeStyles((theme) => ({
   container: {
     height: "100vh",
     paddingTop: theme.spacing(10),
     backgroundColor: theme.palette.primary.main,
+    position: "sticky",
+    top: 0,
     [theme.breakpoints.up("sm")]: {
       backgroundColor: "white",
       color: "#555",
